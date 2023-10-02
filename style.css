@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* 基本 */
+body {
+  margin: 0;
+  background-color: #eeeeee;
+}
+
+img {
+  display: block;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+/* ナビゲーションボタン */
+.navbtn {
+  padding: 0;
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: #aaaaaa;
+  font-size: 30px;
+}
+
+/* 横幅と左右の余白 */
+.w-container {
+  width: min(92%, 1166px); /* 横幅92%、最大幅1166ピクセル */
+  margin: auto; /* 自動的に左右に同じサイズの余白が入る(4%) */
+}
+
+/* ヘッダー */
+.header {
+  height: 112px;
+  background-color: #ffffff;
+}
